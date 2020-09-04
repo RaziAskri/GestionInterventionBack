@@ -1,0 +1,13 @@
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Data.deps.json
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Data.dll
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\obj\Debug\netcoreapp3.1\Poulina.MSpanne.Data.csprojAssemblyReference.cache
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\obj\Debug\netcoreapp3.1\Poulina.MSpanne.Data.AssemblyInfoInputs.cache
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\obj\Debug\netcoreapp3.1\Poulina.MSpanne.Data.AssemblyInfo.cs
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Domain.dll
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Data.runtimeconfig.json
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Data.runtimeconfig.dev.json
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Domain.pdb
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\obj\Debug\netcoreapp3.1\Poulina.MSpanne.Data.csproj.CopyComplete
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\bin\Debug\netcoreapp3.1\Poulina.MSpanne.Data.pdb
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\obj\Debug\netcoreapp3.1\Poulina.MSpanne.Data.dll
+C:\Users\razi\source\repos\MSpanne\Poulina.MSpanne.Data\obj\Debug\netcoreapp3.1\Poulina.MSpanne.Data.pdb
