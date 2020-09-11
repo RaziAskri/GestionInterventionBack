@@ -6,9 +6,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 
-
-
-
 namespace Ms_Panne.Domain.Poulina.MSpanne.Domain.Models
 {
     public class Intervention

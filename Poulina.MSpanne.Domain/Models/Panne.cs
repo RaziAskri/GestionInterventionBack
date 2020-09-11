@@ -5,9 +5,6 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-
-
-
 namespace Ms_Panne.Domain.Poulina.MSpanne.Domain.Models
 {
     public class Panne

@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
 using AutoMapper;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Ms_Panne.Domain.Poulina.MSpanne.Domain.IRepository;
 using Ms_Panne.Domain.Poulina.MSpanne.Domain.Queries;
@@ -95,5 +93,24 @@ namespace Ms_Panne.Controllers
 
             return list;
         }
-    }
+        [HttpGet("GetNombrePannneparMachine")]
+        public IEnumerable<NbrPanneDTO> GetNombrePannneparMachine()
+        {
+            var machines = _machineRepository.GetMachines().Result.ToList();
+            var listpanne = mediator.Send(new GetListGenericQuery<Panne>
+               (condition: null, includes: null)).Result.Select(v => mapper.Map<PanneDTO>(v));
+
+            var lst = new List<NbrPanneDTO>();
+            foreach(var machine in machines)
+            {
+                var nbrpanne = new NbrPanneDTO();
+                nbrpanne.nbrPannes = listpanne.Count(x => x.id_machine == machine.id_machine);
+                nbrpanne.label = machine.label;
+                nbrpanne.id_machine = machine.id_machine;
+                lst.Add(nbrpanne);
+
+            }
+            return lst;
+        }
+       }
     }
