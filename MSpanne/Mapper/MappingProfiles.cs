@@ -22,8 +22,11 @@ namespace Ms_Panne.Mapper
          .ForMember(a => a.TypeInterventionLabel, i => i.MapFrom(src => src.Type_intervention.type_intervention))
          .ReverseMap();
 
+         //   CreateMap<PanneDTO, NbrPanneDTO>()
+         //.ReverseMap();
 
-            
+
+
 
         }
     }

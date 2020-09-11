@@ -54,6 +54,25 @@ namespace Ms_Intervention.Controllers
             var Handler = new GetListGenericHandler<Intervention>(GenericRepository);
             return await Handler.Handle(query, new CancellationToken());
         }
+        [HttpGet("GetInterventionAchevee")]
+        public async Task<IEnumerable<Intervention>> GetInterventionAchevee()
+        {
+            var query = new GetListGenericQuery<Intervention>((x=>x.etatIntervention.Equals("Achevée")), null);
+            var Handler = new GetListGenericHandler<Intervention>(GenericRepository);
+            return await Handler.Handle(query, new CancellationToken());
+        }
+
+
+        [HttpGet("GetInterventionNonAchevee")]
+        public async Task<IEnumerable<Intervention>> GetInterventionNonAchevee()
+        {
+            var query = new GetListGenericQuery<Intervention>((x => !(x.etatIntervention.Equals("Achevée"))), null);
+            var Handler = new GetListGenericHandler<Intervention>(GenericRepository);
+            return await Handler.Handle(query, new CancellationToken());
+        }
+
+
+
 
         // GET: api/Actione/5
         [HttpGet("GetInterventionById")]
